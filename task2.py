@@ -2,7 +2,7 @@
 def get_total(dictionary, keys, tax):
     #A counter is created to accumulate the costs of each item
     cost = 0
-    #A 'for' loop is created tom go through the list of 'keys' items
+    #A 'for' loop is created to go through the list of 'keys' items
     for i in keys:
         #If the item exist in the dictionary, get the cost
         if i in dictionary:
